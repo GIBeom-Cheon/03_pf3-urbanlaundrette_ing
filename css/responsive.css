@@ -1,0 +1,331 @@
+@media screen and (max-width:1200px){
+  }
+@media screen and (max-width:768px){
+  /* 공통스타일 $h 사항   */
+  .h1{
+  font-size: 80px;
+  font-weight: 700;
+  }
+  .h2{
+    font-size: 35px;
+    font-weight: 700;
+  }
+
+  .h3{
+    font-size: 31px;
+    font-weight: 700;
+  }
+
+  .h4{
+    font-size: 27px;
+    font-weight: 700;
+  }
+
+  .h5{
+    font-size: 24px;
+    font-weight: 500;
+  }
+  header .inner{
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0;
+
+  }
+  header .inner h1 a{
+    font-size: 4.557291666666667vw;
+  }
+
+  header .inner .wgnb {
+    position: absolute;
+    left: 10px;;
+    top: calc(50% - 18px);
+    
+  }
+    
+  header .inner .wgnb a.ham{
+    transform: scale(0.6);
+  }
+    header .inner ul.enb{
+    display: none;
+  }
+
+  /************title***********/
+
+  #title::before{
+    width: 100%;
+ 
+  }
+  #title{
+    padding-top: 104px;
+    box-sizing: border-box;
+  }
+  #title div.inner{
+    height: 92%;
+    justify-content: flex-start;
+  }
+  #title div.inner h2{
+    order: 2;
+    font-size: 7.464vw;
+    margin-top: 20px;
+  }
+  #title div.inner p{
+    order: 3;
+  }
+
+  #title div.inner .iframe{
+    height: 40vw;
+    position: static;
+    width: 90%;
+    order: 1;
+   }
+  /********* 서 비 스 ******/
+
+  #service div.inner{
+    padding-bottom: 100px;
+  }
+  #service div.inner hgroup h2{
+    font-size: 3.515625vw;
+  }
+  #service div.inner hgroup h3{
+    line-height: 1.5;
+    font-size: 4.557291666666667vw;
+  }
+  #service div.inner div.contents{
+    row-gap: 50px;
+    column-gap: 0;
+  }
+  
+  #service div.inner div.contents article{
+    width: 100%;
+    transform: initial !important;
+  }
+  #service div.inner div.contents article a::before{
+    height: 300px;
+  }
+  #service div.inner div.contents article a:hover::before{
+    border: 20px solid black;
+  }
+  #service div.inner div.contents article a h4{
+    font-size: 3.515625vw;
+  }
+  
+  /*  space  **************************/
+  
+  #space{
+    margin-top: 52.08333333333333vw;
+    background-color: gray;
+    padding: 0 0 60vw;
+  }
+  
+  #space .inner{
+    margin-top: 10vw;
+    margin-left:0;
+    padding-left: 10%;
+    height:  30vh;
+/*     height: 111.71875vh; */
+    margin-right: 0;
+    /*! padding-right: 10%; */
+    width: 90%;
+/*     height: auto; */
+    background-size: cover;
+    box-sizing:initial;
+/* 강사님 하신것     */
+    padding-top: 50px;
+    justify-content: flex-start;
+    padding-bottom: 50px;
+  }
+
+  #space .inner h2.h1{
+    font-size: 7.8593vw;  /*임의로 45px에 대한 vh값 원래는 본래값에 곱해줘야한다 */
+/*     font-size: 24.73958333333333vw; */
+    margin-top: -26.04166666666667vw;
+    text-align: center;
+   
+  }
+  #space .inner p.h2{
+    font-size: 2.604166666666667vh;
+    margin-top: 330px;
+  }
+  #space .inner a.more{
+    font-size: 13px;
+    }
+  
+  /* story  ********************************** */
+  #story div.inner{
+    padding-bottom: 0;
+  }
+  #story div.inner hgroup h2{
+    font-size: 5.208333333333333vh;
+  }
+  #story div.inner hgroup h3{
+    margin-top: 20px;
+    line-height: 1.2;
+    font-size: 11.71875vh;
+    letter-spacing: -1px;
+  }
+  #story div.inner hgroup h4{
+    font-size: 6.510416666666667vh;
+  }
+  #story div.inner ul.contents{
+    display: block;
+    margin-bottom: 13.02083333333333vh;   /*150 -> 100px 변경*/
+  }
+  #story div.inner ul li{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  #story div.inner ul li:nth-child(2){
+    border: 0;
+  }
+  
+  /* miele contact   ****************************/
+  #miele,#contact{
+    padding: 0 0 60vw;
+/*     background-color: red; */
+  }
+  
+  #miele div.inner, #contact div.inner{
+    width: 100%;
+    height: 50vh;
+    margin-top: 200px;
+    background-position: center center;
+    
+
+  }
+  #miele div.inner h2.h2 , #contact div.inner h2.h2{
+    font-size: 6.510416666666667vh;    /*50px로 변경*/
+    margin-top: 350px;
+    color: black;
+  }
+  #miele div.inner p.p, #contact div.inner p.p{
+    font-size: 16px;
+    color: black;
+  }
+  #miele div.inner a.more{
+    color: black;
+  }
+  #miele div.inner a.more::before{
+    background: black;
+  }
+  #miele div.inner a.more::after{
+    border-color: black;
+  }
+  /* 컨 택 트   ************************/
+  #contact div.inner::after{
+    top: -100px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 300px;
+    
+  }
+      /* 인스타     */
+  
+  #insta{
+    margin-top: -180px;
+    height: auto;
+    padding-bottom: 80px;
+  }
+  #insta div.inner{
+    width: 90%;
+  }
+  #insta div.inner h2.h2{
+    font-size: 30px;
+    padding-top: 30px;
+  }
+  #insta div.inner ul{
+    flex-wrap: initial;
+/*     width: calc(500% - 210px); */
+    width: 533.3333333%;
+    
+  }
+  #insta div.inner ul li{
+   width: 80%;
+   flex-basis:initial;
+    
+  }
+  
+  /***************footer****************/
+  #footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #footer div.inner{
+    width: 90%;
+  }
+  #footer a.more{
+    width: 30px;
+    height: 30px;
+    top: -15px;
+    left: calc(50% - 15px);
+  }
+  #footer a.more::before{
+    width: 20px;
+    right: calc(50% - 10px);
+  }
+  #footer a.more::after{
+    right: 5px;
+  }
+  #footer div.inner div.top > a{
+    font-weight: 700;
+    font-size: 40px;
+  }
+  #footer div.inner div.top ul.office li > p{
+    letter-spacing: 0;
+    font-size: 12px;
+  }
+  #footer div.inner div.top ul.office li > p a{
+    margin-left: 10px;
+  }
+  #footer div.inner div.top address{
+    flex-direction: column;
+    gap: 20px;
+    font-size: 12px;
+    align-items:flex-start;
+    border: 0;
+    padding-bottom: 0;
+  }
+  #footer div.inner div.top address > p span{
+    display: block;
+  }
+  #footer div.inner div.bottom{
+    flex-direction: column;
+    gap: 10px;
+    justify-content: initial;
+    margin-top: 20px;
+    position: relative;
+  }
+  #footer div.inner div.top address ul.sns{
+    justify-content: flex-start;
+  }
+  #footer div.inner div.top address ul.sns li{
+    width: 20px;
+    height: 20px;
+  }
+  #footer div.inner div.bottom ul.nav_bottom{
+    flex-direction: row;
+    gap: 10px;
+    letter-spacing: 0;
+    font-size: 11px;
+    padding-bottom: 50px;
+  }
+  #footer div.inner div.bottom ul.nav_bottom::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    display: block;
+    position: absolute;
+    background-color: gray;
+    bottom: 40%;
+  }
+  
+  #footer div.inner div.bottom a.email{
+    font-size: 13px;
+  }
+  
+  
+} 

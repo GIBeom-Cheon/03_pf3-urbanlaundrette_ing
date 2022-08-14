@@ -19,7 +19,7 @@
 #title div.inner {
   width: 80%;
   position: relative;
-  z-index: 2;
+  z-index: 1;
   color: white;
   height: 673px ;
 }
@@ -114,7 +114,7 @@
   bottom : 0 ;
   right: 0;
 /*   transform-origin: bottom right;
-  transform : translateY  (30px); */
+  transform : translateY(30px); */
 }
 
 #title span.titleaside{

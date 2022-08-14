@@ -1,0 +1,138 @@
+#footer {
+  background-color: black;
+  position: relative;
+  
+}
+#footer div.inner {
+  color: white;
+}
+/*footer  상단 타이틀로 움직이는 박스  대용품*/
+/* #footer div.inner::before{     
+  content: "";
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-color: red;
+  position: absolute;
+  top: -30px;
+  left: calc(100% /2 - 60px / 2);
+  background-image: url(../img/insta.svg);
+} */
+#footer div.inner div.top {
+  
+}
+#footer div.inner div.top p {
+ 
+}
+#footer div.inner div.top > a {
+  color:white;   /*reset .css 에 에이태그가 검정색 지정되어 있어서 직접스타일로 바꿔줘야한다.*/
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#footer div.inner div.top ul.office {
+  
+}
+#footer div.inner div.top ul.office li {
+  
+}
+#footer div.inner div.top ul.office li > p {
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
+#footer div.inner div.top ul.office li > p a{
+  color: white;
+  margin-left: 40px;
+}
+#footer div.inner div.top address {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+  border-bottom: 2px solid gray;
+  margin-top: 40px;
+}
+#footer div.inner div.top address > p {
+  line-height: 1.5;
+  
+}
+#footer div.inner div.top address > p span{
+  display: none;
+}
+#footer div.inner div.top address ul.sns {
+  display: flex;
+  gap: 20px;
+  
+}
+#footer div.inner div.top address ul.sns li {
+  width: 30px;
+  height: 30px;
+}
+#footer div.inner div.top address ul.sns li a {
+  color: red;
+  font-size: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+#footer div.inner div.top address ul.sns li:nth-child(1) a{
+  background-image: url(../img/facebook.svg);
+}
+#footer div.inner div.top address ul.sns li:nth-child(2) a{
+  background-image: url(../img/insta.svg);
+}
+#footer div.inner div.top address ul.sns li:nth-child(3) a{
+  background-image: url(../img/blog.svg);
+  
+}
+#footer div.inner div.bottom {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+#footer div.inner div.bottom ul.nav_bottom {
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+  letter-spacing: 2px;
+}
+#footer div.inner div.bottom ul.nav_bottom li {
+  
+}
+#footer div.inner div.bottom ul.nav_bottom li a {
+  color: white;
+  
+}
+#footer div.inner div.bottom a.email {
+  color:white;
+}
+
+#footer a.more{
+  display: block;
+  font-size: 0;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  position: absolute;
+  top: -25px;
+  left: calc(50% - 25px);
+  padding: 0;
+  transform: rotate(-90deg);
+  transition: all 1s;
+}
+#footer a.more::before{
+  background-color: white;
+  right: calc(50% - 15px);
+  width: 30px;
+}
+#footer a.more::after{
+  right: 10px;
+  border-color: white;
+}
+#footer a.more:hover{
+  background-color: gray;
+}
